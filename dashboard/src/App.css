@@ -1,0 +1,43 @@
+/* src/App.css */
+:root {
+  --background-color: #ff0000;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--background-color);
+  transition: background 0.3s;
+}
+
+.section {
+  height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  background: inherit;
+}
+
+#home {
+  background: inherit;
+}
+
+#about {
+  background: inherit;
+}
+
+#services {
+  background: inherit;
+}
+
+#contact {
+  background: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+}
